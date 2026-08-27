@@ -1,4 +1,4 @@
-import { social } from "@/lib/data";
+import { social } from '@/lib/data';
 
 export default function SocialLinks() {
   return (
@@ -7,7 +7,7 @@ export default function SocialLinks() {
         <a
           key={s.label}
           href={s.href}
-          target={s.href.startsWith("mailto:") ? undefined : "_blank"}
+          target={s.href.startsWith('mailto:') ? undefined : '_blank'}
           rel="noreferrer"
           className="text-ink-soft underline decoration-line underline-offset-4 transition hover:text-diff-add hover:decoration-diff-add"
         >

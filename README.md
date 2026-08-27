@@ -6,7 +6,7 @@ Next.js 15 (App Router) + TypeScript + Tailwind CSS.
 
 The page treats your career like a codebase: the hero is a terminal
 session, projects are listed like `ls ./projects`, and experience reads
-as a git log with diff-style `+` lines. It's meant to feel like *your*
+as a git log with diff-style `+` lines. It's meant to feel like _your_
 vernacular as a developer, not a generic template.
 
 ## Getting started

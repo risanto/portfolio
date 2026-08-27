@@ -16,7 +16,7 @@
   }
 
   :focus-visible {
-    outline: 2px solid theme("colors.diff.add");
+    outline: 2px solid theme('colors.diff.add');
     outline-offset: 2px;
   }
 }
