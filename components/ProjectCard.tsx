@@ -76,7 +76,7 @@ export default function ProjectCard({ project }: { project: Project }) {
         >
           <button
             type="button"
-            className="absolute right-6 top-6 text-3xl text-white"
+            className="absolute right-4 top-4 z-10 text-3xl text-white"
             onClick={() => setIsOpen(false)}
             aria-label="Close fullscreen image"
           >
@@ -84,7 +84,7 @@ export default function ProjectCard({ project }: { project: Project }) {
           </button>
 
           <div
-            className="relative h-full w-full max-h-[90vh] max-w-6xl"
+            className="relative aspect-video w-full max-w-6xl"
             onClick={(e) => e.stopPropagation()}
           >
             <Image
