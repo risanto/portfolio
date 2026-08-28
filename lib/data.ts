@@ -50,7 +50,7 @@ export const projects: Project[] = [
     links: [
       {
         label: 'Live site',
-        href: 'https://hsbinvestasi.com/blog',
+        href: 'https://blog.hsb.co.id',
       },
     ],
   },
