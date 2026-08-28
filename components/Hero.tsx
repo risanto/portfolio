@@ -20,9 +20,9 @@ export default function Hero() {
 
           <p className="mt-6 text-ink-soft">$ cat about.md</p>
           <p className="mt-1 max-w-2xl text-ink/90 font-sans text-base sm:text-lg leading-relaxed">
-            I build for the web across the stack, from Node APIs to React/Next.js interfaces, and
-            I&apos;m currently at Apple Developer Academy adding native iOS to that range. I like
-            projects where I own the outcome end to end.
+            I've built across the stack over the years, from Node APIs to React/Next.js interfaces,
+            and I&apos;m currently at Apple Developer Academy adding native iOS to that range. I
+            like projects where I own the outcome end to end.
           </p>
         </div>
       </div>

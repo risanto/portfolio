@@ -32,6 +32,27 @@ export const projects: Project[] = [
     detail: 'Datemate helps couples decide where to go for a date based on their preferences.',
     stack: ['SwiftUI', 'Foundation Model', 'GameKit'],
     image: { src: '/img/datemate.png', alt: 'Datemate app screenshot' },
+    links: [
+      {
+        label: 'Demo video',
+        href: 'https://youtube.com/shorts/Or-MWtZM2Z0?feature=share',
+      },
+    ],
+  },
+  {
+    slug: 'blog-migration',
+    name: 'HSB Blog Migration',
+    summary: 'Migrated the company blog to a new template, solo.',
+    detail:
+      'Migrated the company blog to a new template as the sole developer, rebuilding it for performance — improving PageSpeed scores to 91 on mobile and 99 on desktop.',
+    stack: ['WordPress'],
+    metric: { label: 'PageSpeed (mobile)', value: '91', kind: 'add' },
+    links: [
+      {
+        label: 'Live site',
+        href: 'https://hsbinvestasi.com/blog',
+      },
+    ],
   },
 ];
 
