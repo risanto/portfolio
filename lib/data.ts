@@ -120,7 +120,4 @@ export const log: LogEntry[] = [
   },
 ];
 
-export const social = [
-  { label: 'GitHub', href: 'https://github.com/risanto' },
-  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/risantomulyo' },
-];
+export const social = [{ label: 'LinkedIn', href: 'https://www.linkedin.com/in/risantomulyo' }];
