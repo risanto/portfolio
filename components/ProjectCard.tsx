@@ -40,6 +40,12 @@ export default function ProjectCard({ project }: { project: Project }) {
         <p className="mt-2 text-ink/90">{project.summary}</p>
         <p className="mt-3 text-sm text-ink-soft">{project.detail}</p>
 
+        {project.role && (
+          <p className="mt-3 text-sm text-ink-soft">
+            <span className="font-semibold">Role: </span> {project.role}
+          </p>
+        )}
+
         <div className="mt-4 flex flex-wrap gap-1.5">
           {project.stack.map((tech) => (
             <span

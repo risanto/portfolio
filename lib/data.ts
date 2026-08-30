@@ -3,6 +3,7 @@ export type Project = {
   name: string;
   summary: string;
   detail: string;
+  role?: string;
   stack: string[];
   image?: { src: string; alt: string };
   metric?: { label: string; value: string; kind: 'add' | 'del' };
@@ -16,7 +17,8 @@ export const projects: Project[] = [
     summary: 'A native SwiftUI app built during Apple Developer Academy.',
     detail:
       'Gowes helps cyclists estimate pollution exposure based on their route, duration, and departure time using spatio-temporal model.',
-    stack: ['SwiftUI', 'MapKit', 'CoreML'],
+    role: 'Project manager + iOS developer — coordinated 4 teammates, managed the project timeline and task board, and implemented the UI and MapKit-based route logic.',
+    stack: ['SwiftUI', 'MapKit', 'CoreML', 'Foundation Models'],
     image: { src: '/img/gowes.png', alt: 'Gowes app screenshot' },
     links: [
       {
@@ -30,7 +32,8 @@ export const projects: Project[] = [
     name: 'iOS Prototype — Datemate',
     summary: 'A native SwiftUI app built during Apple Developer Academy.',
     detail: 'Datemate helps couples decide where to go for a date based on their preferences.',
-    stack: ['SwiftUI', 'Foundation Model', 'GameKit'],
+    role: 'iOS developer on a team of 5 — implemented the home screen UI and the solo recommendation flow.',
+    stack: ['SwiftUI', 'Foundation Models', 'GameKit'],
     image: { src: '/img/datemate.png', alt: 'Datemate app screenshot' },
     links: [
       {
@@ -81,7 +84,7 @@ export const log: LogEntry[] = [
     org: 'HSB Investasi',
     location: 'Jakarta, ID',
     diff: [
-      { kind: 'add', text: 'Sole dev: site, blog, landing pages' },
+      { kind: 'add', text: 'Sole dev: site, blog, landing pages, internal dashboards' },
       { kind: 'add', text: 'Blog migration — 91 mobile / 99 desktop' },
     ],
   },
